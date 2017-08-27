@@ -93,10 +93,8 @@ def WriteXML(writeDirectory,metadata):
         f.write(xmlOutput)
 
 def main():
-    readDirectory ="/work/pr001/katragou/WRF2ESGF/postpro_model_WRF2ESGF_ster/CORDEX_hindcast371b_rfrm/EUR-44/AUTH-MC/ECMWF-ERAINT/evaluation/r1i1p1/AUTH-MC-WRF371M/v1/3hr/"
-    writeDirectory="/users/prace/melbatta/metadata/"
-    #readDirectory ="E:/read/"
-    #writeDirectory = "E:/write/"
+    readDirectory ="NetCDF/"
+    writeDirectory = "Output/"
 
     directory_list = list()
     for root, dirs, files in os.walk(readDirectory, topdown=False):
