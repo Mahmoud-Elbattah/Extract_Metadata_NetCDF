@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<dublin_core>
+	<dcvalue element="Title">rsut_EUR-44_ECMWF-ERAINT_evaluation_r1i1p1_AUTH-MC-WRF371M_v1_3hr_2007010100-2008010100.nc</dcvalue>
+	<dcvalue element="Creator">Eleni Katragkou, AUTH, Dept Meteorology &amp; Climatology, katragou@auth.gr</dcvalue>
+	<dcvalue element="Publisher">Aristotle University of Thessaloniki-Dept Meteorology &amp; Climatology</dcvalue>
+	<dcvalue element="Date">2017-03-19T16:14:23Z</dcvalue>
+	<dcvalue element="Coverage">3hr</dcvalue>
+	<CORDEX_Domain>EUR-44</CORDEX_Domain>
+	<Driving_Experiment>ECMWF-ERAINT,evaluation,r1i1p1</Driving_Experiment>
+	<Dimension>
+		<Standard_Name>rlon</Standard_Name>
+		<Size>106</Size>
+	</Dimension>
+	<Dimension>
+		<Standard_Name>rlat</Standard_Name>
+		<Size>103</Size>
+	</Dimension>
+	<Dimension>
+		<Standard_Name>time</Standard_Name>
+		<Size>2920</Size>
+	</Dimension>
+	<Dimension>
+		<Standard_Name>bnds</Standard_Name>
+		<Size>2</Size>
+	</Dimension>
+	<Variable>
+		<Name>lon</Name>
+		<Size>10918</Size>
+		<Dimension>rlat</Dimension>
+		<Dimension>rlon</Dimension>
+		<standard_name>longitude</standard_name>
+		<units>degrees_east</units>
+		<long_name>longitude</long_name>
+	</Variable>
+	<Variable>
+		<Name>lat</Name>
+		<Size>10918</Size>
+		<Dimension>rlat</Dimension>
+		<Dimension>rlon</Dimension>
+		<standard_name>latitude</standard_name>
+		<units>degrees_north</units>
+		<long_name>latitude</long_name>
+	</Variable>
+	<Variable>
+		<Name>rotated_pole</Name>
+		<Size>1.0</Size>
+		<grid_north_pole_latitude>39.25</grid_north_pole_latitude>
+		<grid_north_pole_longitude>-162.0</grid_north_pole_longitude>
+		<grid_mapping_name>rotated_latitude_longitude</grid_mapping_name>
+	</Variable>
+	<Variable>
+		<Name>time_bnds</Name>
+		<Size>5840</Size>
+		<Dimension>time</Dimension>
+		<Dimension>bnds</Dimension>
+		<standard_name>time</standard_name>
+		<units>days since 1949-12-01T00:00:00Z</units>
+		<long_name>time</long_name>
+		<calendar>standard</calendar>
+	</Variable>
+	<Variable>
+		<Name>rsut</Name>
+		<Size>31880560</Size>
+		<Dimension>time</Dimension>
+		<Dimension>rlat</Dimension>
+		<Dimension>rlon</Dimension>
+		<cell_methods>time: mean</cell_methods>
+		<missing_value>1e+20</missing_value>
+		<positive>down</positive>
+		<_FillValue>1e+20</_FillValue>
+		<standard_name>toa_outgoing_shortwave_flux</standard_name>
+		<units>W m-2</units>
+		<coordinates>lon lat</coordinates>
+		<long_name>TOA Outgoing Shortwave Radiation</long_name>
+		<grid_mapping>rotated_pole</grid_mapping>
+	</Variable>
+</dublin_core>
