@@ -1,1 +1,4 @@
 # Extract_Metadata_NetCDF
+The main goal of the project was to produce explanatory metadata that can effectively describe NetCDF datasets output from climate simulation models. The metadata should also be stored and indexed in a query-able format, so that search and query tasks can be conducted efficiently. The extrcated metadata can facilitate the search and query of NetCDF data, so that researchers can easily discover and use climate data. Specifically, a set of objectives were defined as below:
+
+The project was developed in a collaboration between the Greek Research and Technology Network (GrNet) and the Aristotle University of Thessaloniki. GrNet provided us with access to the ARIS supercomputing facility in Greece,which is usually utilised to run the computationally intensive climate simulation models. GrNET also manages the DSapce repository used to store NetCDF data.
